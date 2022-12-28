@@ -12,6 +12,29 @@
   background-color: #a434d8;
 }
 
+.app-bread-crumb-container{
+  width: 100%;
+}
+
+.container-fluid{
+  width: 100%;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cbreadcrumb-item-container{
+  display: flex;
+  align-items: center;
+}
+
+.nav-home-container{
+  display: flex;
+  align-items: center;
+}
+
 .nav-active{
   font-weight: 700;
   text-decoration: underline;
@@ -77,13 +100,6 @@
 }
 
 
-
-
 p{
   margin: 0;
 }
-
-/* .CilOptions-rotate{
- transform: rotate(90deg);
-} */
-

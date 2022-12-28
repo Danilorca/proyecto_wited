@@ -13,16 +13,15 @@ import { cilArrowLeft, cilOptions, cilSave } from '@coreui/icons'
 
 const AppBreadcrumb = () => {
   return (
-    <CNavbar fluid>
-      <CContainer className="d-flex docs-highlight">
-        <CBreadcrumb flex-grow-1 docs-highlight>
-          <CBreadcrumbItem>
+    <CNavbar className="navbar-custom">
+      <CContainer className="d-flex docs-highlight nav-container">
+        <CBreadcrumb flex-grow-1 docs-highlight className="cbreadcrumb-item-container">
+          <CBreadcrumbItem className="nav-home-container">
             <CIcon icon={cilArrowLeft} size="lg" />
             <a className="text-decoration-none ps-3" href="#">
               Home
             </a>
           </CBreadcrumbItem>
-
           <CBreadcrumbItem>
             <a className="text-decoration-none" href="#">
               Editor de clases en vivo
@@ -30,7 +29,7 @@ const AppBreadcrumb = () => {
           </CBreadcrumbItem>
           <CBreadcrumbItem active>Crear nueva clase</CBreadcrumbItem>
         </CBreadcrumb>
-        <CRow class="docs-highlight">
+        <CRow>
           <CCol>
             <CButton color="primary" className="btn_nav">
               <CIcon size="lg" icon={cilSave} />

@@ -62,9 +62,9 @@ const AppHeader = () => {
         </CHeaderNav>
       </CContainer>
       <CHeaderDivider />
-      <CContainer fluid>
+      <div className="app-bread-crumb-container">
         <AppBreadcrumb />
-      </CContainer>
+      </div>
     </CHeader>
   )
 }
